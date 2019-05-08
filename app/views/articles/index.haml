@@ -1,0 +1,26 @@
+.wrapper
+  .header
+    .header__content
+      %a.header__content-logo
+      = link_to image_tag("/assets/image.png", width: "50", height: "50")
+      ポートフォリオ一覧です
+      %ul.header__content-list
+        %li
+          = link_to "https://twitter.com/show11071", class: 'list' do
+            twitter
+        %li
+          = link_to "https://show1107.hatenablog.com/", class: 'list' do
+            blog
+        %li.list
+          = link_to "https://github.com/SHOTA1107/", class: 'list' do
+            Github
+  .main
+    .main__content
+      .main__content-info
+        TECH::EXPERT最終課題
+      .main__content-top トップページ・マイページ
+      = link_to image_tag("/assets/top.gif", width: "535px", height: "300px")
+      = link_to image_tag("/assets/maypage.gif", width: "535px", height: "300px")
+      .main__content-buy 商品購入機能・クレジット登録機能
+      = link_to image_tag("/assets/buy.gif", width:"535", height:"300px")
+      = link_to image_tag("/assets/credit.gif", width:"535", height:"300px")

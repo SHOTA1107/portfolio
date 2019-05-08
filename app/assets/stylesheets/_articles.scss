@@ -1,0 +1,71 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+  margin: 0 auto;
+  width: 100vw;
+  background-color: #323232;
+  &__content{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 25px 25px;
+  }
+}
+
+    ul.header__content-list{
+      list-style: none;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    a.list{
+      display: inline-block;
+      width: 100px;
+      height: 50px;
+      padding-top: 10px;
+      float: right;
+      color: white;
+      }
+
+.main{
+  height: 100vw;
+  width: 100vw;
+  background-image: -webkit-radial-gradient(27% 185%, #F9F6F1 0%, #D7D0C5 100%);
+  background-image: radial-gradient(27% 185%, #F9F6F1 0%, #D7D0C5 100%);
+  margin: 0 auto;
+  font-weight: bold;
+  color: black;
+}
+
+.main__content{
+  margin: 0 auto;
+  height: 100vw;
+  max-width: 75%;
+  color: black;
+}
+
+.main__content-info{
+  text-align: center;
+  padding-top: 15px;
+}
+.main__content-top{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.main__content-buy{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin: 50px auto;
+  text-align: center;
+}
+
