@@ -3,7 +3,8 @@
     .header__content
       %a.header__content-logo
       = link_to image_tag("/assets/image.png", width: "50", height: "50")
-      ポートフォリオ一覧です
+      %a.header__content-info
+        portfolio
       %ul.header__content-list
         %li
           = link_to "https://twitter.com/show11071", class: 'list' do
@@ -17,10 +18,27 @@
   .main
     .main__content
       .main__content-info
-        TECH::EXPERT最終課題
+        TECH::EXPERT最終課題(メルカリのコピーサイト)
       .main__content-top トップページ・マイページ
       = link_to image_tag("/assets/top.gif", width: "535px", height: "300px")
       = link_to image_tag("/assets/maypage.gif", width: "535px", height: "300px")
-      .main__content-buy 商品購入機能・クレジット登録機能
+      .main__content-buy 商品購入機能・クレジット登録機能（実装箇所）
       = link_to image_tag("/assets/buy.gif", width:"535", height:"300px")
       = link_to image_tag("/assets/credit.gif", width:"535", height:"300px")
+      %br
+        = link_to "https://docs.google.com/document/d/1FfNCZ9QprTy72LYX4varFQXIN_FNWq62VGK7YGAb4qQ/edit", class: "main__content-link" do
+          詳細説明文
+
+      .main__content-info
+        簡易ブログ投稿アプリ（Rails6.0.0 bata3使用）
+      .main__content-text テキスト入力
+      = link_to image_tag("/assets/text.gif", width: "535px", height: "300px")
+      .main__content-photo 写真投稿
+      = link_to image_tag("/assets/photo.gif", width: "535px", height: "300px")
+      .main__content-view 投稿完了画面
+      = link_to image_tag("/assets/content.gif", width: "535px", height: "300px")
+
+  .footer
+    .footer__content
+    Contact
+
