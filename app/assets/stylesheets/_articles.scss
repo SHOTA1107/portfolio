@@ -63,7 +63,7 @@ a.header__content-info{
 
 .main__content-info{
   text-align: center;
-  padding-top: 30px;
+  padding-top: 45px;
 }
 .main__content-top{
   margin: 50px auto;
@@ -75,19 +75,39 @@ a.header__content-info{
   text-align: center;
 }
 
-.main__content-link{
+h3.main__content-link{
   text-align: center;
   padding: 15px;
-  margin: 0 auto;
-  display: inline-block;
+  margin: 25px auto;
 }
 
+.main__content-text{
+  text-align: center;
+  margin: 50px auto;
+}
+
+
+.main__content-photo{
+  text-align: center;
+  margin: 50px auto;
+}
+
+.main__content-view{
+  text-align: center;
+  margin: 50px auto;
+}
+
+img.text{
+  margin:0 265px;
+}
 .footer{
   height: 100px;
   width: 100%;
   position: absolute;
   background-color: #323232;
 }
+
+
 
 .footer__content{
   color: white;

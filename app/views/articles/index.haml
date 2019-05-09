@@ -25,18 +25,22 @@
       .main__content-buy 商品購入機能・クレジット登録機能（実装箇所）
       = link_to image_tag("buy.gif", width:"535", height:"300px")
       = link_to image_tag("credit.gif", width:"535", height:"300px")
-      %br
+      %h3.main__content-link
         = link_to "https://docs.google.com/document/d/1FfNCZ9QprTy72LYX4varFQXIN_FNWq62VGK7YGAb4qQ/edit", class: "main__content-link" do
-          詳細説明文
+          実装機能説明文
 
       .main__content-info
-        簡易ブログ投稿アプリ（Rails6.0.0 bata3使用）
+        簡易ブログ投稿アプリ（Rails6.0.0 bata3版 Action-text使用）
       .main__content-text テキスト入力
-      = link_to image_tag("text.gif", width: "535px", height: "300px")
+      = link_to image_tag("text.gif", width: "535px", height: "300px", class: "text")
       .main__content-photo 写真投稿
-      = link_to image_tag("photo.gif", width: "535px", height: "300px")
+      = link_to image_tag("photo.gif", width: "535px", height: "300px", class: "text")
       .main__content-view 投稿完了画面
-      = link_to image_tag("content.gif", width: "535px", height: "300px")
+      = link_to image_tag("content.gif", width: "535px", height: "300px", class: "text")
+      %h3.main__content-link
+        = link_to "https://docs.google.com/document/d/1FfNCZ9QprTy72LYX4varFQXIN_FNWq62VGK7YGAb4qQ/edit", class: "main__content-link" do
+          実装機能説明文
+
 
   .footer
     .footer__content
