@@ -9,7 +9,6 @@
 
 .header{
   margin: 0 auto;
-  width: 100vw;
   background-color: #323232;
   &__content{
     width: 100%;
@@ -43,6 +42,10 @@ a.header__content-info{
       color: white;
       border: 1px solid #eee;
       }
+      @media screen and (max-width: 499px){
+      a.list{
+        font-size: 8px}
+        }
 
 .main{
   height: 100%;
@@ -105,11 +108,24 @@ img.text{
   width: 100%;
   position: absolute;
   background-color: #323232;
+  text-align: center;
 }
 
 
 
 .footer__content{
+  height: 30px;
+  width: 100px;
+
+}
+
+
+
+p.copyright{
   color: white;
 }
+
+
+
+
 
