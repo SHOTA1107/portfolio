@@ -7,39 +7,38 @@
         portfolio
       %ul.header__content-list
         %li
-          = link_to "https://twitter.com/show11071", class: 'list' do
+          = link_to "https://twitter.com/show11071", class: 'list', :target => "_blank"do
             twitter
         %li
-          = link_to "https://show1107.hatenablog.com/", class: 'list' do
-            blog
+          = link_to "https://qiita.com/show1107", class: 'list', :target => "_blank"do
+            Qiita
         %li.list
-          = link_to "https://github.com/SHOTA1107/", class: 'list' do
+          = link_to "https://github.com/SHOTA1107/", class: 'list', :target => "_blank" do
             Github
   .main
     .main__content
       .main__content-info
-        TECH::EXPERT最終課題(メルカリのコピーサイト)
-      .main__content-top トップページ・マイページ
+        [ TECH::EXPERT最終課題(メルカリのコピーサイト) ]
+        = link_to "https://docs.google.com/document/d/1FfNCZ9QprTy72LYX4varFQXIN_FNWq62VGK7YGAb4qQ/edit", class: "main__content-link", :target => "_blank" do
+          実装機能説明文
+      .main__content-top < トップページ・マイページ >
       = link_to image_tag("top.gif", width: "535px", height: "300px")
       = link_to image_tag("maypage.gif", width: "535px", height: "300px")
-      .main__content-buy 商品購入機能・クレジット登録機能（実装箇所）
+      .main__content-buy < 商品購入機能・クレジット登録機能(実装箇所) >
       = link_to image_tag("buy.gif", width:"535", height:"300px")
       = link_to image_tag("credit.gif", width:"535", height:"300px")
       %h3.main__content-link
-        = link_to "https://docs.google.com/document/d/1FfNCZ9QprTy72LYX4varFQXIN_FNWq62VGK7YGAb4qQ/edit", class: "main__content-link" do
-          実装機能説明文
 
       .main__content-info
-        簡易ブログ投稿アプリ（Rails6.0.0 bata3版 Action-text使用）
-      .main__content-text テキスト入力
-      = link_to image_tag("text.gif", width: "535px", height: "300px", class: "text")
-      .main__content-photo 写真投稿
-      = link_to image_tag("photo.gif", width: "535px", height: "300px", class: "text")
-      .main__content-view 投稿完了画面
-      = link_to image_tag("content.gif", width: "535px", height: "300px", class: "text")
-      %h3.main__content-link
-        = link_to "https://docs.google.com/document/d/1FfNCZ9QprTy72LYX4varFQXIN_FNWq62VGK7YGAb4qQ/edit", class: "main__content-link" do
+        [ 簡易ブログ投稿アプリ(Rails6.0.0 bata3版 Action-text使用) ]
+        = link_to "https://docs.google.com/document/d/1QkM41aQIX3nn_0IeCMSg_E4gZxN8LqCFNCw7d1AFHIA/edit", class: "main__content-link", :target => "_blank" do
           実装機能説明文
+      .main__content-text <テキスト入力>
+      = link_to image_tag("text.gif", width: "535px", height: "300px", class: "text")
+      .main__content-photo <写真投稿>
+      = link_to image_tag("photo.gif", width: "535px", height: "300px", class: "text")
+      .main__content-view <投稿完了画面>
+      = link_to image_tag("content.gif", width: "535px", height: "300px", class: "text")
 
 
   .footer
