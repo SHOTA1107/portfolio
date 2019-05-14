@@ -40,6 +40,16 @@
       .main__content-view <投稿完了画面>
       = link_to image_tag("content.gif", width: "535px", height: "300px", class: "text")
 
+      .main__content-info
+        [ タスク管理アプリ]
+        = link_to "https://github.com/SHOTA1107/task", class: "main__content-link", :target => "_blank" do
+          実装機能概要（README）
+      .main__content-text <ログイン機能(devise未使用)>
+      = link_to image_tag("login.gif", width: "535px", height: "300px", class: "text")
+      .main__content-text <名称検索>
+      = link_to image_tag("name.gif", width: "535px", height: "300px", class: "text")
+      .main__content-text <日時検索>
+      = link_to image_tag("time.gif", width: "535px", height: "300px", class: "text")
 
   .footer
     .footer__content
